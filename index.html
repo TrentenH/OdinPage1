@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            li {
+                font-family: arial;
+                font-size: 15px;
+                float: left;
+                padding-top: 1em;
+                padding-right: .2em;
+                padding-left: 1em;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            .banner-text {
+                color: #70757a;
+                font-size: 14px;
+                font-family: arial;
+            }
+
+            button {
+                margin: 10px;
+                height: 36px;
+                width: 150px;
+                background-color: #f8f9fa;
+                border: 1px solid #f8f9fa;
+                border-radius: 4px;
+                color: #3c4043;
+                font-family: arial;
+                font-size: 14px;
+            }
+
+            .main-content {
+                text-align: center;
+                width:auto;
+                padding-top: 20em;
+            }
+
+            .bar {
+                margin: 0 auto;
+                width: 575px;
+                border-radius: 30px;
+                border: 1px solid #dcdcdc;
+            }
+
+            .searchbar {
+                height: 25px;
+                border: 1px;
+                width: 500px; 
+                font-size: 16px;
+            }
+
+            .nav-bar { 
+                margin: 0;
+                padding: 0;
+            }
+
+            #logo {
+                padding-bottom: 15px;
+            }
+            
+            #search-icon {
+                padding-top: 8px;
+                padding-right: 18px;
+                color: rgb(168, 168, 168);
+                scale: 90%;
+            }
+
+            #right-bar {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            li.menu-right {
+                float: right;
+            }
+
+            #login, #apps {
+                padding-bottom: 10px;
+                opacity: 50%;
+            }
+
+            .buttons {
+                padding-top: 20px;
+            }
+
+            #main-link {
+                padding-top: 5px;
+                font-size: small;
+                color: #1a0dab;
+                text-decoration: none;
+                font-family: arial;
+            }
+
+            #bottom-banner {
+                margin-left: 0px;
+                border: 0px;
+                padding-left: 0px;
+                background-color: #f0f0f0;
+                width: 100%;
+                justify-content: space-evenly;
+                font-family: arial;
+                display: flex;
+                flex-wrap: wrap;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+            }
+
+        </style>
+        <title>Google</title>
+        </head>
+    <body>
+        <span class="nav-bar">
+            <ul>
+                <li>About</li>
+                <li>Store</li>
+                <li class="menu-right"><span id="login" class="material-icons">account_circle</span></li>
+                <li class="menu-right"><span id="apps" class="material-icons">sports_bar</span></li>
+                <li class="menu-right">Gmail</li>
+                <li class="menu-right">Images</li>
+            </ul>
+        </span>
+        <div class="main-content">
+            <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
+            <form>
+                <label for="search-bar">
+                    <div class="bar">
+                        <span id="search-icon" class="material-icons">search</span>
+                        <input class="searchbar" type="text" title="Search">
+                    </div>
+                    <div class="buttons">
+                        <button value="Google Search">Google Search</button>
+                        <button value="Feeling Lucky">I'm Feeling Lucky</button>
+                    </div>
+                   <div id="main-link">
+                       <a href="#">Stay updated on the Olympics with Google</a>
+                   </div>
+            </form>
+        </div>
+        <div id="bottom-banner">
+            <p class="banner-text">Carbon neutral since 2007</p>
+
+            <ul class="banner-text">
+               <li>Advertising</li>
+               <li>Business</li> 
+               <li>How Search works</li>
+               <li>Privacy</li>
+               <li>Terms</li>
+               <li>Settings</li>
+            </ul>
+        </div>
+    </body>
+
+</html>
